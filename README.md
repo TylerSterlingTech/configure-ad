@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
   
-<h2>Setup Resources in Azure</h2>
+<h3>Setup Resources in Azure</h3>
   
   
 <p>
@@ -111,7 +111,7 @@ The same virtual network is selected for Client-1 as was for DC-1. "Review + Cre
 <br />
 
   
-<h2>Ensure Connectivity between the Client and Domain Controller</h2>
+<h3>Ensure Connectivity between the Client and Domain Controller</h3>
   
   
 <p>
@@ -179,7 +179,7 @@ Connectivity between Client-1 and DC-1 can now be witnessed within Client-1's co
 <br />
 
   
-<h2>Install Active Directory</h2>
+<h3>Install Active Directory</h3>
     
     
 <p>
@@ -247,7 +247,7 @@ DC-1 is restarted, and logged back into as the domaain controller log-in usernam
 <br />
 
   
-<h2>Create an Admin and Normal User Account in Active Directory</h2>
+<h3>Create an Admin and Normal User Account in Active Directory</h3>
     
     
 <p>
@@ -314,7 +314,7 @@ Jane can now log in to the domain controller.
 </p>
 <br />
   
-<h2>Join Client-1 to your the Domain Controller, sterling.com</h2>
+<h3>Join Client-1 to your the Domain Controller, sterling.com</h3>
 
 <p>
 <img src="https://i.imgur.com/T9Ie3dw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -356,7 +356,7 @@ The "_CLIENTS" organizational unit is created, and Client-1 is moved into "_CLIE
 </p>
 <br />
 
-<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+<h3>Setup Remote Desktop for non-administrative users on Client-1</h3>
   
 <p>
 <img src="https://i.imgur.com/fbqtGiu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -366,7 +366,7 @@ After logging in to Client-1 as sterling.com\jane_admin, system properties is op
 </p>
 <br />
 
-<h2>Create 10,000 Additional Users and Log into Client-1 with a Generated User</h2>
+<h3>Create 10,000 Additional Users and Log into Client-1 with a Generated User</h3>
   
 <p>
 <img src="https://i.imgur.com/Q2q5vxD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
