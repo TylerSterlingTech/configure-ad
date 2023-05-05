@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
   
-<h2>Setup Resources in Azure<h/2>
+<h2>Setup Resources in Azure</h2>
   
   
 <p>
