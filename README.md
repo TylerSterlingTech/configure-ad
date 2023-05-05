@@ -24,9 +24,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure Connectivity between the Client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in Active Directory
-- Join Client-1 to your the Domain Controller, Sterling.com
-- Setup Remote Desktop for non-administrative users on Client-1
-- Create 10,000 Additional Users and Log into Client-1 with a Generated User
+- Join Client-1 to the the Domain Controller, Sterling.com
+- Setup Remote Desktop for Non-Administrative Users on Client-1
+- Create 10,000 Additional Users and Access Client-1 with a Generated User
 
 
 
@@ -66,7 +66,7 @@ The username and password are set for DC-1.
 <img src="https://i.imgur.com/imcku5L.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Similar to the resurce group, the virtual network is automatically created. "review + Create" is selected.
+Similar to the resource group, the virtual network is automatically created. "Review + Create" is selected.
 </p>
 <br />
 
@@ -118,7 +118,7 @@ The same virtual network is selected for Client-1 as was for DC-1. "Review + Cre
 <img src="https://i.imgur.com/MNlb2CK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To log in the Client-1, the Remote Desktop application an Client-1's public IP address are used.
+To log in to Client-1, the Remote Desktop application and Client-1's public IP address are used.
 </p>
 <br />
 
@@ -194,7 +194,7 @@ The server manager within DC-1 is displayed. "Add Roles and Feautures" is select
 <img src="https://i.imgur.com/u2UgF3N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Following the process of "Add Roles and Feautures", within "Server Roles", "Active Directory Domain Services" is selected before continuing.
+Following the process of "Add Roles and Features", within "Server Roles", "Active Directory Domain Services" is selected before continuing.
 </p>
 <br />
 
@@ -210,7 +210,7 @@ Active directory is being installed.
 <img src="https://i.imgur.com/n28qlQg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Active directory has been installed, however, is still needs to be promoted to a domain controller. "Promote this server to a domain controller" is selected.
+Active directory has been installed, however, it still needs to be promoted to a domain controller. "Promote this server to a domain controller" is selected.
 </p>
 <br />
 
@@ -242,7 +242,7 @@ The installation of the domain controller is configured.
 <img src="https://i.imgur.com/v33cYAJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DC-1 is restarted, and logged back into as the domaain controller log-in username and password.
+DC-1 is restarted, and logged back into with the domain controller log-in username and password.
 </p>
 <br />
 
@@ -286,7 +286,7 @@ To create a new employee, the process of "sterling.com --> _EMPLOYEES --> new --
 <img src="https://i.imgur.com/GPWLbTP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The employee Jane Doe is configured, with the user logon name being set to "jane_admin".
+The employee Jane Doe is configured, with the user logon name is set to "jane_admin".
 </p>
 <br />
 
@@ -314,7 +314,7 @@ Jane can now log in to the domain controller.
 </p>
 <br />
   
-<h3>Join Client-1 to your the Domain Controller, sterling.com</h3>
+<h3>Join Client-1 to the Domain Controller, Sterling.com</h3>
 
 <p>
 <img src="https://i.imgur.com/T9Ie3dw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -336,7 +336,7 @@ After the DNS configuration, Client-1 needs to be restarted.
 <img src="https://i.imgur.com/YCQ6IYA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Within Client-1, Client-1 is being addedto the domain. The process of "System --> Rename this PC (advanced) --> Change" is followed. The domain is set to "sterling.com". Jane's admin account username and password are entered, and the virtual machine restarts.
+Within Client-1, Client-1 is being added to the domain. The process of "System --> Rename this PC (advanced) --> Change" is followed. The domain is set to "sterling.com". Jane's admin account username and password are entered, and the virtual machine restarts.
 </p>
 <br />
 
@@ -356,13 +356,13 @@ The "_CLIENTS" organizational unit is created, and Client-1 is moved into "_CLIE
 </p>
 <br />
 
-<h3>Setup Remote Desktop for non-administrative users on Client-1</h3>
+<h3>Setup Remote Desktop for Non-Administrative Users on Client-1</h3>
   
 <p>
 <img src="https://i.imgur.com/fbqtGiu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After logging in to Client-1 as sterling.com\jane_admin, system properties is opened, "Remote Desktop" is selected, and "domain users" is given access to remote desktop. Client-1 can now be logged into with a non-administrative user.
+After logging in to Client-1 as sterling.com\jane_admin, system properties is opened, "Remote Desktop" is selected, and "domain users" is given access to remote desktop. Client-1 can now be logged into as a non-administrative user.
 </p>
 <br />
 
@@ -380,7 +380,7 @@ After logging into DC-1 as Jane, PowerShell_ise is opened as an administrator.
 <img src="https://i.imgur.com/KOKCvC3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-A new file is created, and the script is ran. The names being generated is displayed.
+A new file is created, and the script is ran. The names being generated are displayed.
 </p>
 <br />
 
