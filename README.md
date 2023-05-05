@@ -286,7 +286,7 @@ To create a new employee, the process of "sterling.com --> _EMPLOYEES --> new --
 <img src="https://i.imgur.com/GPWLbTP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The employee Jane Doe is configured, with the user logon name is set to "jane_admin".
+The employee Jane Doe is configured, and the user logon name is set to "jane_admin".
 </p>
 <br />
 
