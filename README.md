@@ -38,13 +38,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 
-<h3>Setup Resources in Azure<h/3>
+<h2>Setup Resources in Azure<h/2>
 
 
-<h3>Create an Admin and Normal User Account in Active Directory<h/3>
-<h3>Join Client-1 to your the Domain Controller, Sterling.com<h/3>
-<h3>Setup Remote Desktop for non-administrative users on Client-1<h/3>
-<h3>Create 10,000 Additional Users and Log into Client-1 with a Generated User<h/3>
+<h2>Create an Admin and Normal User Account in Active Directory<h/2>
+<h2>Join Client-1 to your the Domain Controller, Sterling.com<h/2>
+<h2>Setup Remote Desktop for non-administrative users on Client-1<h/2>
+<h2>Create 10,000 Additional Users and Log into Client-1 with a Generated User<h/2>
 
 <p>
 <img src="https://i.imgur.com/IXyyoKE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -119,7 +119,7 @@ The same virtual network is selected for Client-1 as was for DC-1. "Review + Cre
 <br />
 
   
-<h3>Ensure Connectivity between the Client and Domain Controller<h/3>
+<h2>Ensure Connectivity between the Client and Domain Controller<h/2>
   
   
 <p>
@@ -187,7 +187,7 @@ Connectivity between Client-1 and DC-1 can now be witnessed within Client-1's co
 <br />
 
   
-<h3>Install Active Directory<h/3>
+<h2>Install Active Directory<h/2>
     
     
 <p>
