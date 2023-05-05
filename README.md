@@ -254,7 +254,7 @@ DC-1 is restarted, and logged back into with the domain controller log-in userna
 <img src="https://i.imgur.com/1wia3WR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-"Active Directory Users and Computers (ADUC), within DC-1, is displayed. The domain "sterling.com" can be seen.
+"Active Directory Users and Computers" (ADUC), within DC-1, is displayed. The domain "sterling.com" can be seen.
 </p>
 <br />
 
